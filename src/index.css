@@ -1,0 +1,19 @@
+:root {
+  --headingColor: #1e2022;
+  --subtitleColor: #989090;
+  --backgroundColor: #ffffff;
+  --LogoColor: #cf2d2d;
+  --borderColor: #b0babf;
+}
+
+* {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

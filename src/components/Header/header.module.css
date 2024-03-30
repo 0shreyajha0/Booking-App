@@ -1,0 +1,99 @@
+.headerContainer {
+  margin: 20px 0 10px 0;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 70px;
+  color: var(--subtitleColor);
+}
+
+.headerContainerTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: var(--LogoColor);
+}
+
+.headerContainerTopInside {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerContainerDropDownBox {
+  display: flex;
+  align-items: center;
+  width: 900px;
+}
+
+.headerContainerSearchBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid var(--borderColor);
+  margin: 0 10px;
+  width: 650px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.headerContainerSearchIcon {
+  margin-right: 10px;
+}
+
+.headerContainerSearch {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+}
+
+.headerContainerButtonBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--subtitleColor);
+}
+.headerContainerButtonBoxText {
+  margin-left: 8px;
+  font-size: small;
+}
+.headerContainerButton {
+  margin: 0 10px;
+  background-color: white;
+  border: 2px solid var(--borderColor);
+  outline: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  color: var(--subtitleColor);
+  font-size: bolder;
+}
+
+.headerContainerBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: smaller;
+}
+
+.headerContainerLocation {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.headerContainerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 275px;
+  width: 50%;
+}
