@@ -1,0 +1,10 @@
+.dropDownButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 140px;
+  height: 35px;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 7px;
+}
