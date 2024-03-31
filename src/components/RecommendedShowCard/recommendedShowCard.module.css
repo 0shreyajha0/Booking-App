@@ -1,0 +1,43 @@
+.recommendedShowCardContainer {
+  z-index: -1;
+}
+
+.recommendedShowCardImage {
+  object-fit: fill;
+}
+
+.recommendedShowCardContent {
+}
+
+.recommendedShowCardTopContent {
+}
+
+.name {
+}
+
+.date {
+}
+
+.recommendedShowCardBottomContent {
+}
+
+.recommendedShowCardLocationContent {
+}
+
+.locationIcon {
+}
+
+.location {
+}
+
+.weatherConatiner {
+}
+
+.weather {
+}
+
+.divider {
+}
+
+.distance {
+}

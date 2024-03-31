@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/Header";
 // import { RecommendedShows } from "../components/RecommendedShows";
 // import { UpcomingShows } from "../components/UpcomingShows";
-// import { Banner } from "../components/Banner";
+import { HeroSection } from "../components/HeroSection";
 import { useState, useEffect } from "react";
 
 export const Dashboard = () => {
@@ -39,6 +39,7 @@ export const Dashboard = () => {
   return (
     <div className="App">
       <Header />
+      <HeroSection />
     </div>
   );
 };
