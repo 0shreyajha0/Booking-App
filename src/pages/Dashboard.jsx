@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../components/Header";
-// import { RecommendedShows } from "../components/RecommendedShows";
+import { RecommendedShowCard } from "../components/RecommendedShows";
 // import { UpcomingShows } from "../components/UpcomingShows";
 import { HeroSection } from "../components/HeroSection";
 import { useState, useEffect } from "react";
