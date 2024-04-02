@@ -102,13 +102,18 @@
   width: 50%;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 750px) {
+@media only screen and (max-width: 1200px) and (min-width: 530px) {
+  /* 700 */
   .headerContainerSearchBox {
     margin: 0;
     width: 350px;
   }
   .headerContainerDropDown {
     display: none;
+  }
+  .headerContainerDropDownBox {
+    width: auto;
+    margin-right: 25px;
   }
   .headerContainerButtonBoxText {
     display: none;
@@ -128,4 +133,52 @@
   }
 }
 
-/* @media only screen and (max-width: 750px) and (min-width: 300px) {} */
+@media only screen and (max-width: 530px) and (min-width: 200px) {
+  .headerContainerTopInside {
+    display: flex;
+    justify-content: center;
+  }
+  .headerContainerSearchBox {
+    border: none;
+    width: 50px;
+    margin: 0;
+  }
+  .headerContainerSearch {
+    display: none;
+  }
+  .headerContainerDropDown {
+    display: none;
+    margin: 0;
+  }
+  .headerContainerDropDownBox {
+    width: auto;
+    margin-right: 0;
+  }
+  .headerContainerButtonBoxText {
+    display: none;
+  }
+  .headerContainerSignInButton {
+    display: none;
+  }
+  .headerContainerSignInIcon {
+    display: unset;
+  }
+  .headerContainerBottom {
+    display: block;
+  }
+  .headerContainerLocation {
+    margin-left: 60px;
+    font-weight: bolder;
+  }
+  .headerContainerList {
+    margin-top: 4px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .headerContainerListText {
+    margin-right: 15px;
+  }
+}

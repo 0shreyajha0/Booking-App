@@ -43,7 +43,7 @@ export const Header = () => {
         </div>
         <div className={styles.headerContainerList}>
           {HEADER_DATA.map((item, index) => (
-            <p>{item}</p>
+            <p className={styles.headerContainerListText}>{item}</p>
           ))}
         </div>
       </div>
