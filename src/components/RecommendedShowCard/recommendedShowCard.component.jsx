@@ -1,8 +1,8 @@
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
-import styles from "./heroSection.module.css";
+import styles from "./recommendedShowCard.module.css";
 
-export const RecommendedShowCard = (props) => {
+export const RecommendedShowCard = () => {
   return (
     <div className={styles.recommendedShowCardContainer}>
       <img

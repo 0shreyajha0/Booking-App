@@ -1,1 +1,1 @@
-export * from "./RecommendedShowCard.component";
+export * from "./recommendedShowCard.component";
