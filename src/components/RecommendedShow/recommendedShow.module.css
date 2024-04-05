@@ -1,0 +1,21 @@
+.recommendedShowContainer {
+  display: flex;
+  z-index: -1;
+  flex-direction: column;
+}
+
+.recommendedShowHeader {
+  font-weight: bold;
+  color: bisque;
+  display: flex;
+  flex-direction: row;
+}
+
+.recommendedShowCardsContainer {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

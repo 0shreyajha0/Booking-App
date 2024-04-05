@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../components/Header";
-import { RecommendedShowCard } from "../components/RecommendedShowCard/recommendedShowCard.component";
+import { RecommendedShow } from "../components/RecommendedShow";
+
 // import { UpcomingShows } from "../components/UpcomingShows";
 import { HeroSection } from "../components/HeroSection";
 import { useState, useEffect } from "react";
@@ -40,7 +41,7 @@ export const Dashboard = () => {
     <div className="App">
       <Header />
       <HeroSection />
-      <RecommendedShowCard />
+      <RecommendedShow />
     </div>
   );
 };
