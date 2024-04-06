@@ -1,14 +1,22 @@
 .recommendedShowContainer {
   display: flex;
-  z-index: -1;
   flex-direction: column;
+  margin-bottom: 120px;
 }
-
+.recommendedShowHeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .recommendedShowHeader {
-  font-weight: bold;
   color: bisque;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.recommendedShowHeaderText {
+  font-size: large;
 }
 
 .recommendedShowCardsContainer {
@@ -16,6 +24,7 @@
   align-content: space-around;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
+  flex-wrap: nowrap;
 }

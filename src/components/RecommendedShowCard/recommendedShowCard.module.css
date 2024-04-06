@@ -1,11 +1,12 @@
 .recommendedShowCardContainer {
-  z-index: -5;
   width: 500px;
   height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .recommendedShowCardImage {
-  object-fit: fill;
+  max-width: 100%;
 }
 
 .recommendedShowCardContent {
@@ -54,9 +55,8 @@
 .location {
 }
 
-.weatherConatiner {
+.weatherContainer {
   display: flex;
-  justify-content: center;
   flex-direction: row;
 }
 

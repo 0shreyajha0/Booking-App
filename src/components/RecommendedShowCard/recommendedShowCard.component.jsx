@@ -23,7 +23,7 @@ export const RecommendedShowCard = (props) => {
           </div>
           <div className={styles.weatherContainer}>
             <p className={styles.weather}>{props.weather}</p>
-            <divider className={styles.divider} />
+            <hr className={styles.divider} />
             <p className={styles.distance}>{props.distanceKm}km</p>
           </div>
         </div>
