@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../components/Header";
 import { RecommendedShow } from "../components/RecommendedShow";
+import { UpcomingEvent } from "../components/UpcomingEvent";
 
 // import { UpcomingShows } from "../components/UpcomingShows";
 import { HeroSection } from "../components/HeroSection";
@@ -42,6 +43,7 @@ export const Dashboard = () => {
       <Header />
       <HeroSection />
       <RecommendedShow />
+      <UpcomingEvent />
     </div>
   );
 };

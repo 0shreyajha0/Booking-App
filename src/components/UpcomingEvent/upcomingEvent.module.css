@@ -1,0 +1,32 @@
+.upcomingEventContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+  width: 100%;
+}
+.upcomingEventHeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.upcomingEventHeader {
+  color: bisque;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.upcomingEventHeaderText {
+  font-size: large;
+}
+
+.upcomingEventCardsContainer {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 10%;
+  flex-wrap: wrap;
+}
