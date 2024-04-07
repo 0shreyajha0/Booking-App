@@ -1,9 +1,8 @@
 .upcomingEventCardContainer {
-  width: 100vw;
+  width: 30%;
   height: auto;
   border-radius: 10px;
   overflow: hidden;
-  align-items: center;
 }
 
 .upcomingEventCardImage {
@@ -17,11 +16,11 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 80%;
   position: relative;
-  bottom: 50px;
-  left: 20px;
-  color: red;
+  bottom: 100px;
+  left: 50px;
+  color: white;
   font-weight: lighter;
 }
 
