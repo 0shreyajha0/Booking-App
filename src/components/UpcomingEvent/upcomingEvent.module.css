@@ -1,8 +1,7 @@
 .upcomingEventContainer {
   display: flex;
   flex-direction: column;
-  margin-bottom: 120px;
-  width: 100%;
+  width: 100vw;
 }
 .upcomingEventHeaderContainer {
   display: flex;
@@ -28,4 +27,15 @@
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 970px) {
+  .upcomingEventCardsContainer {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
 }

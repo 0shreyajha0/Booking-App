@@ -80,9 +80,10 @@
   }
 
   .heroSubtitleContainer {
-    left: 100px;
+    position: absolute;
+    left: 30px;
     width: 80%;
-    top: 10px;
+    top: 120px;
   }
 
   .heroSubtitle {
